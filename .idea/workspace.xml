@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c1228aa-501c-4dec-80fb-2be7b2ad1642" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1rHs5yYfqOWdN9AqsCGL0mB1IUM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1228aa-501c-4dec-80fb-2be7b2ad1642" name="Default Changelist" comment="" />
+      <created>1618644169719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618644169719</updated>
+      <workItem from="1618644174878" duration="978000" />
+      <workItem from="1618648304028" duration="540000" />
+      <workItem from="1618649470894" duration="61000" />
+      <workItem from="1618649559132" duration="304000" />
+      <workItem from="1618649882258" duration="136000" />
+      <workItem from="1618650036820" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="860" y="620" key="#Custom_Plugin_Repositories" timestamp="1618650003765">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="860" y="620" key="#Custom_Plugin_Repositories/0.0.2560.1410@0.0.2560.1410" timestamp="1618650003765" />
+    <state x="482" y="366" key="SettingsEditor" timestamp="1618650010679">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="482" y="366" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1618650010679" />
+  </component>
+</project>

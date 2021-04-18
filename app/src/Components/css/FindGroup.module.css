@@ -1,0 +1,83 @@
+
+.main {
+
+  grid-column: 1/2;
+  grid-row: 2;
+  min-width: 60%;
+  border: 1px solid ;
+  border-color:rgb(139, 157, 214);
+  padding:20px;
+  margin-bottom: 10px;
+
+  box-shadow:  0px 0px 5px 5px rgba(36, 1, 1, 0.5);
+  }
+
+  
+
+
+
+
+.inputGr
+{
+  display: grid;
+  color:grey;
+  font-size: 22px;
+  grid-template-areas: gr btn;
+  grid-column-gap: 0;
+  align-items: center;
+} 
+
+
+  
+ 
+
+.inpFile {
+  grid-area: gr;
+  grid-row:1;
+  min-width: 400px;
+ height: max-content; 
+  border: 1px solid rgb(238, 238, 241);
+  
+  
+}
+
+.btn {
+
+  grid-area:  btn;
+  grid-row: 1;
+  font-weight: 700;
+  color: white;
+  background-color:blueviolet;
+  font-size: 10px;
+  padding: 5%;
+
+  }
+
+  .btn :hover {
+    color: blue;
+    background-color:red;
+    font-size: 10px;
+    padding: 5%;
+  
+    }
+
+
+
+.search  {
+    grid-column: 3;
+   height: auto;
+   min-width: 200px;
+ 
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+.search:hover {
+  background-color:rgb(246, 246, 250);
+  box-shadow:  0 0 1px 0px rgba(231, 224, 224, 0.5);
+  transform: scale(0.99);
+  color: black;
+  transition: 300ms ease-out;
+
+}
