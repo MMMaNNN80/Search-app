@@ -21,7 +21,7 @@ const readFileAnyEncoding = async (file) => {
 
     return result;
 }
-
+// eslint-disable-next-line to
 const readExcel = (file) => {
     return new Promise(resolve => {
         const reader = new FileReader();

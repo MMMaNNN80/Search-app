@@ -2,7 +2,7 @@ import './App.css';
 import HeaderText from './Components/Header.jsx';
 import FindGroup from './Components/FindGroup.jsx';
 import  CountAll from './Components/CountAll.jsx';
-import {Route,BrowserRouter } from 'react-router-dom';
+import {BrowserRouter } from 'react-router-dom';
 
 
 const App = (props) => {
@@ -11,7 +11,7 @@ const App = (props) => {
     <div className="App-header">
     <div className="cont">
       <HeaderText  txt = {props.state.mass_txt}/>
-      <FindGroup />
+      <FindGroup state = {props.state.inpEvent} />
       <CountAll txt = {props.state.count_txt}  />       
       </div>
     </div>

@@ -7,14 +7,27 @@ import state from './Redux/state.js';
 
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App state = {state} />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export const pererender = () =>
+{
+    ReactDOM.render(
+        <React.StrictMode>
+            <App state={state}/>
+        </React.StrictMode>,
+        document.getElementById('root')
+    );
+}
 
+pererender();
+
+// let listener =() => {
+//     console.log ("Измененно")
+// }
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// export  const render = (observer) => {
+//     listener = observer;
+//
+// }
+
 reportWebVitals();
