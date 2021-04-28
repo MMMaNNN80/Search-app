@@ -4,7 +4,7 @@ let listCompany =[]
 
 
 const headertxt =  ['Сервис группового поиска','Ксюша']
-let countrows = 0
+
 
 async function initInputData(file) {
 
