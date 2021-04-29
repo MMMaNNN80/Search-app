@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1228aa-501c-4dec-80fb-2be7b2ad1642" name="Default Changelist" comment="Файл для проверки">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <changelist_data name="I" email="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/JS/workFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JS/workFile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="I" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rHs5yYfqOWdN9AqsCGL0mB1IUM" />
@@ -75,7 +80,7 @@
       <workItem from="1618649559132" duration="304000" />
       <workItem from="1618649882258" duration="136000" />
       <workItem from="1618650036820" duration="103000" />
-      <workItem from="1619644857535" duration="441000" />
+      <workItem from="1619644857535" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="Файл для проверки">
       <created>1619645168684</created>
@@ -89,6 +94,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,18 +124,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="242" y="186" width="816" height="730" key="#Intentions/0.0.1920.1050@0.0.1920.1050" timestamp="1619370072840" />
-    <state x="449" y="391" key="#Notifications" timestamp="1619645299842">
+    <state x="449" y="391" key="#Notifications" timestamp="1619645313982">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="449" y="391" key="#Notifications/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1619645299842" />
+    <state x="449" y="391" key="#Notifications/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1619645313982" />
     <state x="482" y="366" key="SettingsEditor" timestamp="1618650010679">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="482" y="366" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1618650010679" />
-    <state x="156" y="248" key="Vcs.Push.Dialog.v2" timestamp="1619645185417">
+    <state x="156" y="248" key="Vcs.Push.Dialog.v2" timestamp="1619645416767">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="156" y="248" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1619645185417" />
+    <state x="156" y="248" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1619645416767" />
     <state x="434" y="427" key="git4idea.ui.GitStashDialog" timestamp="1619359387420">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

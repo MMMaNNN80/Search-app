@@ -8,7 +8,6 @@ export const readFile = async (file) => {
         return data;
     }
 
-
     return { data: [], error: "Type file not correctly" };
 }
 const convertStringToCompany = (data) => {
