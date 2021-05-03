@@ -44,6 +44,7 @@ const readFileUtfEncoding = (file) => {
         reader.onload = (event) => {
             try {
                 resolve({ data: decodeURIComponent(escape(event.target.result)), error: null });
+
             } catch (e) {
                 if (e.message === "URI malformed") {
                     resolve({ data: [], error: "not correctly encoding" });
@@ -53,6 +54,7 @@ const readFileUtfEncoding = (file) => {
             }
         };
         reader.readAsBinaryString(file);
+
     });
 }
 
