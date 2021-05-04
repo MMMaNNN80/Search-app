@@ -1,7 +1,8 @@
 import '../App.css';
 
 const Preview = (props) => {
-      if (props.cont.length > 0 && props) {
+      
+      if (props  &&  props.tblContent.length > 0) {
             return (
                   <div className="text-center preview">
                         <p className = "p_text"> Превью условий поиска </p>
@@ -15,7 +16,7 @@ const Preview = (props) => {
                                      QUERY <br></br>
                                     запрос
                   </th>
-                              {props.cont.map(el =>
+                              {props.tblContent.map(el =>
                                     <tr>
                                           <td>{el.id}</td>
                                           <td>{el.query}</td>
