@@ -10,7 +10,7 @@ const FindGroup = (props) => {
       onChange={props.selectFile}
       />
       <button className={`${css.btn} ${css.search} `} 
-       onClick = {props.search.onClickAction}
+       onClick = {props.search.fbtnSeach}
      >Найти </button>
     </div>
   </div>
