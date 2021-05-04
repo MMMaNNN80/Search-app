@@ -8,7 +8,7 @@ import ProgressBar from './Components/ProgressBar';
 
 
 const App = (props) => {
- 
+  
 
   return (
     <BrowserRouter>
@@ -18,7 +18,7 @@ const App = (props) => {
       <FindGroup selectFile = {props.state.inpEvent} search = {props.state.search} />
       <CountAll txt = {props.state.count_txt}  /> 
       <ProgressBar search = {props.state.search} />
-      <Preview  cont= {props.state.cont}/> 
+      <Preview  tblContent= {props.state.tblContent}/> 
       </div>
     </div>
     </BrowserRouter>
