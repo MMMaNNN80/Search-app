@@ -3,11 +3,16 @@ let countProcessedRecord = 0;
 
 
 
-const startProgress = () => {
+export const startProgress = () => {
     document.querySelector("#processing").hidden = false; // делаем видимой    <div  id="processing">, где все контроллы скачивания
     setProgressBarValue(); // 
 }
 
+
+const stepProgress = () => {
+    countProcessedRecord += 1;
+    setProgressBarValue();
+}
 const setProgressBarValue = () => {
     let pr = 0;
     if (countAllRecord > 0) pr = Math.floor((countProcessedRecord / countAllRecord) * 100);
@@ -45,8 +50,5 @@ const stopProgress = () => {
     setProgressBarValue();
 }
 
-const stepProgress = () => {
-    countProcessedRecord += 1;
-    setProgressBarValue();
-}
+
 
