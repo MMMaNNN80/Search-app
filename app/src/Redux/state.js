@@ -1,7 +1,8 @@
 import { readFile } from '../JS/workFile';
 import { pererender } from '../index';
-let listCompany = [];
 
+let listCompany = [];
+const urlService = "http://10.42.108.144:8080/suggestions/api/4_1/rs/suggest/party";
 const headertxt = ['Сервис группового поиска', 'Ксюша']
 
 
@@ -15,7 +16,9 @@ async function initInputData(file) {
     listCompany.push(...inputData.data)
 
     listCompany = listCompany.filter(el => el.id.length > 2)
-    state.tblContent = listCompany.slice(0, 50);
+    state.countRecords = listCompany.length
+    
+    state.tblContent = listCompany;
     //initProgress(listCompany.length);
   } else {
     notificationError(inputData.error);
@@ -23,7 +26,7 @@ async function initInputData(file) {
   state.count_txt = 'Всего записей: '
 
   state.count_txt = state.count_txt + listCompany.length
-  state.countRecords = listCompany.length
+
   pererender()
 
 }
@@ -31,9 +34,6 @@ function notificationError(error) {
   console.error(error);
   alert(error);
 }
-
-
-const urlService = "http://10.42.108.144:8080/suggestions/api/4_1/rs/suggest/party";
 
 const postRequest = async (query) => {
   const response = await fetch(urlService, {
@@ -49,7 +49,6 @@ const postRequest = async (query) => {
   if (response.status === 200) {
       return await response.json();
   }
-
   const resultError = await response.json();
   console.error(resultError);
   throw new Error(`${resultError.message}`);
@@ -57,9 +56,7 @@ const postRequest = async (query) => {
 
 
 const onClickAction = () => {
-
-
-  state.countRecords > 0 ? getSuggestions(): alert('Нет данных для обработки /fbtnSeach')
+  state.countRecords > 0 ? getSuggestions(): console.log("Файл не выбран");
  // startProgress() 
 }
 
@@ -69,9 +66,13 @@ const getSuggestions = async (request) => {
 
   listCompany = state.tblContent;
    const listCompanyInfo = []; 
+   let i = 0
   try {
   for (const request of listCompany ){
-  const sug = await postRequest(request.query.trim().replace('"', "") );
+  i+=1;
+    const sug = await postRequest(request.query.trim().replace('"', "") );
+    startProgress(i)
+
 
 
  if (sug.suggestions.length > 0) {
@@ -124,18 +125,12 @@ const startProgress = (currCountRecords = 0) => {
 
   const countAllRecord = state.countRecords;
   state.search.procentValue = Math.floor((currCountRecords / countAllRecord) * 100) + '%'
-
-  if (currCountRecords !== countAllRecord) {
-    setIncrementCountRecords(currCountRecords)
+ if (currCountRecords <= countAllRecord) {
     pererender()
   }
 }
 
-const setIncrementCountRecords = (currCountRecords) => {
-  currCountRecords += 1;
-  startProgress(currCountRecords)
 
-}
 let state =
 {
 

@@ -16,7 +16,7 @@ const Preview = (props) => {
                                      QUERY <br></br>
                                     запрос
                   </th>
-                              {props.tblContent.map(el =>
+                              {props.tblContent.slice(0,50).map(el =>
                                     <tr>
                                           <td>{el.id}</td>
                                           <td>{el.query}</td>

@@ -6,7 +6,7 @@
   color: white;
   width:100%;
   height: 100%;
-  padding: 5%;
+  padding: 3%;
  
 }
 .z_txt
@@ -16,7 +16,7 @@
 
 .cont
 {
-padding: 2% 2%;
+padding: 1% 1%;
 display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 align-items: start;
@@ -36,35 +36,41 @@ grid-gap: 3%;
 }
 th  {
   
-  border: 2px solid grey;
-  color:wheat;
+  border: 0.1px solid blue;
+  color:green;
+  text-shadow: 2px 1px 0.5px black;
   font-size: 14px;
   font-family: sans-serif;
-  padding: 5px;
+  padding: 1px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   background-color:transparent;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+
   
  }
 td{
  
   padding: 2px; /* Поля вокруг текста */
   padding-left: 10px;
-  border: 0.5px solid grey; /* Рамка вокруг ячеек */
+  border: 0.1px solid blue;
   text-align: left;
   background-color:transparent;
   font-family: Arial;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   overflow: visible;
   word-wrap:break-word;
+  color:slategray;
+  text-shadow: 1px 1px 0.2px black;
  }
   th:nth-child(1) {
-  width: 10%;
+  
+  width: 50%;
 }
 
  th:nth-child(2) {
-  width: 90%;
+  width: 50%;
+  min-width: 200px;
 }
 
 .p_text{

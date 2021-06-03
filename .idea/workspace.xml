@@ -21,12 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9c1228aa-501c-4dec-80fb-2be7b2ad1642" name="Default Changelist" comment="-">
       <changelist_data name="I" email="" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/Preview.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/JS/workFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JS/workFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/Preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Preview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/ProgressBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/ProgressBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/JS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -88,6 +87,10 @@
       <workItem from="1619644857535" duration="1740000" />
       <workItem from="1619720910208" duration="8000" />
       <workItem from="1619812252060" duration="707000" />
+      <workItem from="1620555323709" duration="627000" />
+      <workItem from="1620578002212" duration="32000" />
+      <workItem from="1621030746469" duration="1024000" />
+      <workItem from="1621067049135" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Файл для проверки">
       <created>1619645168684</created>
@@ -135,6 +138,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="449" y="391" key="#Notifications/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1619645313982" />
+    <state x="1060" y="459" key="FileChooserDialogImpl" timestamp="1620578024692">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1060" y="459" key="FileChooserDialogImpl/-1920.261.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1620578024692" />
     <state x="482" y="366" key="SettingsEditor" timestamp="1618650010679">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
