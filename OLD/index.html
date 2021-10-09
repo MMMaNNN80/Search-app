@@ -1,0 +1,64 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+    <title>Подсказки компаний</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="container p-5 shadow-lg bg">
+            <div class="row  text-center">
+                <h2>Сервис поиска компаний </h2>
+            </div>
+            <div class="main border border-primary p-5">
+                <div class="input-gr">
+                    <input  class="inp_file"  type="file" />
+                    <button id="search" class="btn btn-primary">Найти</button>
+                </div>
+                <div class="px-2" id="countRecord">Всего записей: 0</div>
+                <div  id="processing" hidden style="position:relative">
+                    <h5 class="text-center">ОБРАБОТКА...</h5>
+                   
+                    <div  class="progress-bar"  role="progressbar" ></div>
+               
+                          <div  class="pr"> 
+                            <p   id="pr-text" style=" color:darkblue; ; height: 45px;width: auto; font-size: 38px;font-weight: 700;     
+                            text-align:center; justify-self: center;
+                           "></p> 
+                         </div>              
+                     <div class="progress" 
+                      style="position: absolute;z-index: -1;"
+                       ></div>
+                 
+
+                    <div class="stat" hidden style="position: relative; margin-top: 2%;" >0 / 0</div>
+                </div>
+                <div>
+                    <table hidden  class="table table-bordered table-sm text-center table-hover mt-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Количество результатов на запрос</th>
+                                <th scope="col">Количество запросов</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jszip.min.js"></script>
+    <script src="js/xlsx.min.js"></script>
+    <script src="js/statistic.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/repository.js"></script>
+    <script src="js/converters.js"></script>
+    <script src="js/workFile.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
